@@ -2,11 +2,11 @@ package com.example.demo.dao;
 
 public class DeptDao {
 	public int insert() {
-		System.out.println("insert OK~!~!");
-		return 0;
+		System.out.println("등록하였습니다.");
+		return 1;
 	}
 	public int update() {
-		System.out.println("update OK~~~~!");
-		return 0;
+		System.out.println("수정하였습니다.");
+		return 1;
 	}
 }
